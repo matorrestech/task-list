@@ -26,5 +26,5 @@ Distributed under the MIT Licence. See `LICENCE` for more information.
 
 ## Contact
 
-MatheusTorres - [@ymatorrestech](https://www.linkedin.com/in/matorrestech/) - mt@matheustorres.com
+MatheusTorres - [@matorrestech](https://www.linkedin.com/in/matorrestech/) - mt@matheustorres.com
 Project Link: [https://github.com/matorrestech/task-list](https://github.com/matorrestech)
