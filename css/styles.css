@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins-Medium", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfdad8;
+    color: #292b41;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    margin: auto auto;
+}
+
+input {
+    height: 50px;
+    font-size: 1.5rem;
+    width: 80%;
+    padding-left: 10%;
+    border: 1px solid #292b41;
+}
+button.add {
+    width: 20%;
+    cursor: pointer;
+    background: #292b41;
+    color: #dfdad8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 20px #b3b3b3;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.item.checked {
+    background: #b3b3b3;
+}
+
+.item.checked .itemName {
+    text-decoration: line-through;
+    font-weight: 100;
+    color: #666666;
+}
+
+.itemIcone {
+    flex: 10%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.itemName {
+    flex: 70%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.itemButton {
+    flex: 20%;
+}
+
+.delete {
+    background-color: #990000;
+    color: #dfdad8;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.fa-circle-check {
+    color: #666666;
+}
