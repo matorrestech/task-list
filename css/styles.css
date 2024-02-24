@@ -71,7 +71,7 @@ main {
     color: #666666;
 }
 
-.itemIcone {
+.itemIcon {
     flex: 10%;
     text-align: center;
     font-size: 1.5rem;
@@ -99,4 +99,25 @@ main {
 
 .fa-circle-check {
     color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+    input {
+        font-size: 1rem;
+    }
+
+    button.add {
+        font-size: 1rem;
+    }
+
+    .item {
+        font-size: 1rem;
+    }
+
+    .itemIcon {
+        font-size: 1rem;
+    }
+    .delete {
+        font-size: 1rem;
+    }
 }

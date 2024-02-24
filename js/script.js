@@ -18,7 +18,7 @@ function addTask() {
         // Create the new item
         let newItem = `
         <div id="${counter}" class="item">
-            <div onclick="taskCheck(${counter})" class="itemIcone">
+            <div onclick="taskCheck(${counter})" class="itemIcon">
                 <i id="icon_${counter}" class="fa-regular fa-circle"></i>
             </div>
             <div onclick="taskCheck(${counter})" class="itemName">${valueInput}</div>
